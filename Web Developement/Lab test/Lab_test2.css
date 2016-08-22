@@ -1,0 +1,157 @@
+.image_1{
+	position: absolute;
+	left:10px;
+	margin-top: 0p;
+	width: 730px;
+}
+
+.image_2{
+	position: absolute;
+	margin-top: 145px;
+	left: 10px;
+}
+
+.image_3{
+	position: absolute;
+	left: 20px;
+	margin-top: 235px;
+
+}
+
+.image_4{
+	position: absolute;
+	right: 440px;
+	margin-top: 335px;
+
+}
+.Search_bar{
+	position: absolute;
+	right: 475px;
+	margin-top: 35px;
+
+}
+.top_writing1{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left: 20px;
+	margin-top: 90px;
+
+}
+.top_writing2{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left: 85px;
+	margin-top: 90px;
+
+}
+.top_writing3{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left: 180px;
+	margin-top: 90px;
+
+}
+.top_writing4{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left: 250px;
+	margin-top: 90px;
+
+}
+.top_writing5{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left:390px;
+	margin-top: 90px;
+
+}
+.top_writing6{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left: 500px;
+	margin-top: 90px;
+
+}
+.top_writing7{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left: 600px;
+	margin-top: 90px;
+
+}
+.top_writing8{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left: 700px;
+	margin-top: 90px;
+
+}
+
+.top_writing9{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left: 780px;
+	margin-top: 90px;
+
+}
+.top_writing10{
+	position: absolute;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	left: 890px;
+	margin-top: 90px;
+
+}
+
+.Business{
+	position: absolute;
+	left: 390px;
+	margin-top: 235px;
+	font-family: "Times New Roman";
+	font-size: 21px;
+
+
+}
+
+.Article_header1{
+	position: absolute;
+	left: 390px;
+	margin-top: 270px;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	
+
+}
+
+.Article_1{
+
+	position: absolute;
+	left: 390px;
+	margin-top: 370px;
+	font-family: "Times New Roman";
+	font-size: 15px;
+
+}
+
+
+.Sport{
+	position: absolute;
+	left: 580px;
+	margin-top: 235px;
+	font-family: "Times New Roman";
+	font-size: 25px;
+
+
+}
+
+
+

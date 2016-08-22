@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--This page is the form input for displaying one of 3 different tables-->
+<html>
+	<style>
+		#background 
+		{
+			width: 100%; 
+			height: 100%; 
+			position: absolute; 
+			left: 0px; 
+			top: 0px; 
+			z-index: 0;
+		}
+
+		.stretch 
+		{
+			width:100%;
+			height:100%;
+		}
+	</style>
+	<body>
+		<div id="background">
+			<img src="http://wallnoy.com/wp-content/uploads/2014/10/abstract_background_18.jpg" class="stretch" alt="" />
+		</div>
+
+	<div>
+		<b>
+		<a  href="Home.html" style="color:Black; position: absolute; left: 600px; margin-top: 1px;font-size: 20px;"> WebD/Assignment</a>
+		</b>
+	</div>
+	
+	<div style="position: absolute; left: 10px; margin-top: 25px;width:1350px; height:30px;border:1px solid #000;">
+		<A href="view_table.html" style="position: absolute; left: 10px; margin-top: 6px; text-decoration: none;color:Black;">
+		Display Table
+		</A>
+		
+	</div>
+	
+	<div>
+		<A href="Insert.html" style="position: absolute; left: 130px; margin-top: 32px; text-decoration: none;color:Black;">
+		Insert to a table
+		</A>
+		
+	</div>
+	
+	<div>
+		<A href="Update_Table.html" style="position: absolute; left: 250px; margin-top: 32px; text-decoration: none; color:Black;">
+		Update a table
+		</A>
+	</div>
+	
+	<div>
+		<A href="Delete.html" style="position: absolute; left: 370px; margin-top: 32px; text-decoration: none; color:Black;">
+		Delete table
+		</A>
+		
+	</div>
+	
+	<div>
+	<!--Input form to pick which table to view-->
+	<form action="http://localhost/WebD/View_table.php" method="get">
+		
+			<a  style="position: absolute; left: 10px; margin-top: 60px;">
+			Table: <input type="text" name="Table"><br></a>
+			<a  style="position: absolute; left: 140px; margin-top: 90px;">
+			<input type="submit"></a>
+	</form>
+		<a  style="position: absolute; left: 300px; margin-top: 60px;font-size: 20px;">
+		Tables:<br>
+		Pharmacy<br>
+		User<br>
+		Prescription
+		</a>
+		
+	</div>
+	</body>
+</html>
+</html>

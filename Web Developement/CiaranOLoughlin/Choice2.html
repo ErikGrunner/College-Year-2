@@ -1,0 +1,95 @@
+<!DOCTYPE html>7
+<!--Insert form for table=prescription_info -->
+<html>
+	<style>
+		#background 
+		{
+			width: 100%; 
+			height: 100%; 
+			position: absolute; 
+			left: 0px; 
+			top: 0px; 
+			z-index: 0;
+		}
+
+		.stretch 
+		{
+			width:100%;
+			height:100%;
+		}
+	</style>
+	<body>
+	<div id="background">
+		<img src="http://wallnoy.com/wp-content/uploads/2014/10/abstract_background_18.jpg" class="stretch" alt="" />
+	</div>
+
+	<div>
+		<b>
+		<a  href="Home.html" style="color:Black; position: absolute; left: 600px; margin-top: 1px;font-size: 20px;"> WebD/Assignment</a>
+		</b>
+	</div>
+	
+	<div style="position: absolute; left: 10px; margin-top: 25px;width:1350px; height:30px;border:1px solid #000;">
+		<A href="view_table.html" style="position: absolute; left: 10px; margin-top: 6px; text-decoration: none;color:Black;">
+		Display Table
+		</A>
+		
+	</div>
+	
+	<div>
+		<A href="Insert.html" style="position: absolute; left: 130px; margin-top: 32px; text-decoration: none;color:Black;">
+		Insert to a table
+		</A>
+		
+	</div>
+	
+	<div>
+		<A href="Update_Table.html" style="position: absolute; left: 250px; margin-top: 32px; text-decoration: none; color:Black;">
+		Update a table
+		</A>
+	</div>
+	
+	<div>
+		<A href="Delete.html" style="position: absolute; left: 370px; margin-top: 32px; text-decoration: none; color:Black;">
+		Delete table
+		</A>
+		
+	</div>
+	<!--Form to input data into prescription_info table-->
+	<div>
+	<form action="http://localhost/WebD/Insert2.php" method="get">
+		
+			<a  style="position: absolute; left: 10px; margin-top: 60px;">
+			Customer_name: <input type="text" name="name"><br></a>
+			
+			<a  style="position: absolute; left: 10px; margin-top: 90px;">
+			Customer Address: <input type="text" name="cus_add"><br></a>
+			
+			<a  style="position: absolute; left: 10px; margin-top: 120px;">
+			Doctors name: <input type="text" name="dname"><br></a>
+			
+			<a  style="position: absolute; left: 10px; margin-top: 150px;">
+			Doctors address: <input type="text" name="d_add"><br></a>
+			
+			<a  style="position: absolute; left: 10px; margin-top: 180px;">
+			Drug type: <input type="text" name="d_type"><br></a>
+			
+			<a  style="position: absolute; left: 10px; margin-top: 210px;">
+			Drug dosage: <input type="text" name="d_d"><br></a>
+			
+			<a  style="position: absolute; left: 10px; margin-top: 240px;">
+			Days to be taken: <input type="number" name="days"><br></a>
+			
+			<a  style="position: absolute; left: 10px; margin-top: 270px;">
+			Medical card Number: <input type="Number" name="m_num"><br></a>
+			
+			<a  style="position: absolute; left: 10px; margin-top: 300px;">
+			Prescription Number: <input type="number" name="p_num"><br></a>
+			
+			
+			<a  style=" position: absolute; left: 160px; margin-top: 330px;">
+			<input type="submit"></a>
+	</form>
+	</div>
+	</body>
+</html>

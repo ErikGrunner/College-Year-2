@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>My first form</title>
+		</head>
+		<body>
+			<font size="12">Lab4 form</font>
+			<br>
+			<font color="red">*required field</font>
+		</body>
+		<form method="post" action="showform.php">
+			Name:<br>
+			<input type="text" name="Name" required>
+			<font color="red">*</font>
+			<br>
+			Email:<br>
+			<input type="text" name="Email" required>
+			<font color="red">*</font>
+			<br>
+			Website:<br>
+			<input type="text" name="Website">
+			<br>
+			Comment:<br>
+			<textarea rows="5" cols="80" id="Comment"></textarea>
+			<br>
+			<input type="radio" name="sex" value="male">Male
+			<input type="radio" name="sex" value="female">Female
+			<br>
+			<input type="submit">
+		</form>
+	</html>

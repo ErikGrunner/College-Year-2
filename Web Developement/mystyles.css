@@ -1,0 +1,110 @@
+.title_1{
+	position: absolute;
+	left: 625px;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	margin-top: 300px;
+	color: #335CD6;
+	margin-right:600px:
+}
+
+.title_3{
+	position: absolute;
+	left: 625px;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	margin-top: 450px;
+	color: #335CD6;
+	margin-right: 550px;
+}
+
+.title_4{
+	position: absolute;
+	left: 310px;
+	margin-top: 275px;
+}
+
+.main_text{
+	position: absolute;
+	left: 625px;
+	font-family: "Times New Roman";
+	font-size: 10px;
+	margin-top: 350px;
+	margin-right: 550px;
+}
+
+.image_1{
+	position: absolute;
+	left: 300px;
+	margin-top: 0p;
+	width: 730px;
+}
+
+.image_2{
+	position: absolute;
+	margin-top: 50px;
+	left: 300px;
+}
+
+.image_3{
+	position: absolute;
+	left: 300px;
+	margin-top: 300px;
+
+}
+
+.image_4{
+	position: absolute;
+	right: 250px;
+	margin-top: 325px;
+
+}
+
+.image_5{
+	position: absolute;
+	right: 450px;
+	margin-top: 450px;
+
+}
+
+.image_6{
+	position: absolute;
+	right: 450px;
+	margin-top: 325px;
+
+}
+
+.image_7{
+	position: absolute;
+	right: 300px;
+	margin-top: 450px;
+
+}
+
+
+.title_2{
+	position: absolute;
+	left: 300px;
+	margin-top: 500px;
+	color: #335CD6;
+	font-size: 25px;
+	margin-right: 750px;
+}
+
+.line{
+	position: absolute;
+	
+	margin-top: 1000px;
+	color: #335CD6;
+}
+
+.secondary_text{
+	position: absolute;
+	left: 625px;
+	font-family: "Times New Roman";
+	font-size: 10px;
+	margin-top: 510px;
+	margin-right: 550px;
+
+
+}
